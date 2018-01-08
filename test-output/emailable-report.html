@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,796</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testScripts.Module1_Qualifications</td><td><a href="#m0">AfterSuite</a></td><td rowspan="1">1515404867239</td><td rowspan="1">45710</td></tr><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testScripts.Module1_Qualifications</td><td><a href="#m1">TC101_AddQualificationDetails_WorkExperience</a></td><td rowspan="1">1515404852745</td><td rowspan="1">14352</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">testScripts.Module1_Qualifications#AfterSuite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+869983	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1515404869983	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1515404869983	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1515404869983	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1515404869984	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1515404869984	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+Unable to read VR Path Registry from C:\Users\balu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsSearchService.js, line 1737: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1515404874606	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1515404874606	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1515404874607	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 19.2.0
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 3.05
+1515404874614	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1515404874614	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2017.11.07.1100-7f4e3634
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 242: TypeError: log is undefined
+Unable to read VR Path Registry from C:\Users\balu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515404874716	addons.manager	DEBUG	shutdown
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1515404874716	addons.xpi	DEBUG	shutdown
+1515404874716	addons.xpi-utils	DEBUG	shutdown
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1515404874717	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1515404874717	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1515404874720	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1515404874723	addons.manager	DEBUG	Async provider shutdown done
+1515404874920	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\balu\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;balu-PC&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at frameworkLibrary.BaseClass.AfterSuite(BaseClass.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+869983	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1515404869983	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1515404869983	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1515404869983	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1515404869984	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1515404869984	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1515404869984	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+Unable to read VR Path Registry from C:\Users\balu\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsSearchService.js, line 1737: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1515404874606	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1515404874606	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1515404874607	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 19.2.0
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1515404874613	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 3.05
+1515404874614	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1515404874614	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2017.11.07.1100-7f4e3634
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 242: TypeError: log is undefined
+Unable to read VR Path Registry from C:\Users\balu\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515404874716	addons.manager	DEBUG	shutdown
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1515404874716	addons.xpi	DEBUG	shutdown
+1515404874716	addons.xpi-utils	DEBUG	shutdown
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1515404874716	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1515404874717	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1515404874717	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1515404874720	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1515404874723	addons.manager	DEBUG	Async provider shutdown done
+1515404874920	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\balu\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 27 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testScripts.Module1_Qualifications#TC101_AddQualificationDetails_WorkExperience</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at frameworkLibrary.UtilityLibrary.logEvent(UtilityLibrary.java:158)
+	at testScripts.ApplicationLibrary.addWorkExperienceDetailsAndVerify(ApplicationLibrary.java:57)
+	at testScripts.Module1_Qualifications.TC101_AddQualificationDetails_WorkExperience(Module1_Qualifications.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

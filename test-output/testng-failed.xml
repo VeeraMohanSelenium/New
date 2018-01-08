@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testScripts.Module1_Qualifications">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="AfterSuite"/>
+          <include name="TC101_AddQualificationDetails_WorkExperience"/>
+          <include name="BeforeMethod"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- testScripts.Module1_Qualifications -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
